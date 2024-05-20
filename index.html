@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm thông minh IOT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.intro, .products, .contact {
+  margin-bottom: 40px;
+}
+
+.intro h2, .products h2, .contact h2 {
+  color: #007BFF;
+  margin-bottom: 20px;
+  padding-left: 130px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  max-width: 30%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-item h3 {
+  margin-top: 15px;
+  color: #007BFF;
+}
+
+.product-item p {
+  margin-top: 10px;
+}
+
+.contact p {
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .product-list {
+      flex-direction: column;
+      align-items: center;
+  }
+  .product-item {
+      max-width: 100%;
+  }
+}
+
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Nhóm KLMH</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="index.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="tuoiCay.html">Hệ thống tưới cây</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hệ thống báo động đột nhập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hệ thống báo cháy </a>
+          </li>
+          </ul>
+          </div>
+        
+            <div class="col-md-4 d-none d-md-block p-0">
+                <div class="header-info d-flex align-items-center">
+                    <i class="material-icons">email</i>
+                    <p style="margin-right: 40px;">btrankhanhminh@gmail.com</p>
+                    <i class="material-icons">phone</i>
+                    <p>0935421637</p>
+                  </div>
+            </div>
+    </nav>
+    
+    <header>
+      <div class="container">
+          <h1>Chào mừng đến với Công ty IoT</h1>
+          <p>Khám phá các sản phẩm công nghệ tiên tiến của chúng tôi.</p>
+      </div>
+  </header>
+  <main>
+      <div class="container">
+          <section class="intro">
+              <h2>Giới thiệu về IoT</h2>
+              <p>IoT (Internet of Things) là mạng lưới các thiết bị thông minh kết nối với nhau qua internet, cho phép chúng thu thập và trao đổi dữ liệu. Tại công ty chúng tôi, chúng tôi cung cấp các giải pháp IoT tiên tiến để nâng cao chất lượng cuộc sống và tăng cường hiệu quả công việc.</p>
+          </section>
+          <section class="products">
+              <h2>Sản phẩm của chúng tôi</h2>
+              <div class="product-list">
+                <div class="product-item">
+                    <a href="tuoiCay.html">
+                        <img src="img/pic_tree.jpg" alt="Sản phẩm 1">
+                    </a>
+                        <h3>Hệ thống tưới cây thông minh</h3>
+                        <p>Thiết bị giúp theo dõi nhiệt độ môi trường theo thời gian thực và báo cáo qua ứng dụng di động.</p>
+                </div>
+                <div class="product-item">
+                    <a href="baoDong.html">
+                        <img src="img/pic_antitheft.jpg" alt="Sản phẩm 2">
+                      </a>
+                        <h3>Hệ thống báo động đột nhập</h3>
+                        <p>Camera với khả năng nhận diện khuôn mặt và cảnh báo an ninh tự động qua điện thoại.</p>
+                    
+                </div>
+                <div class="product-item">
+                    <a href="baoChay.html">
+                        <img src="img/pic_antifire.jpg" alt="Sản phẩm 3">
+                      </a>
+                        <h3>Hệ thống báo cháy thông minh</h3>
+                        <p>Cảm biến giúp theo dõi độ ẩm đất trong vườn và tự động điều chỉnh hệ thống tưới nước.</p>
+                </div>
+              </div>
+          </section>
+      </div>
+  </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="foot">
+            <div class="header-info d-flex align-items-center justify-content-center">
+                <i>Contact: </i>
+                <i class="material-icons">email</i>
+                <p style="margin-right: 40px;">btrankhanhminh@gmail.com</p>
+                <i class="material-icons">phone</i>
+                <p style="margin-right: 40px;">0935421637</p>
+                <i class="material-icons">facebook</i>
+                <a href="https://www.facebook.com/profile.php?id=100054623388066">Minh Bui</a>
+              </div>
+        </div>
+    </footer> 
+    <style>
+        @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+        .header_index{
+            background-color: #90a7bd46;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+          
+          .flex-grow-1 {
+            flex-grow: 1;
+            margin-right: 20px;
+          }
+          
+          .img_product {
+            width: 600px;
+            margin-left: auto;
+          }
+        .section-title {
+            text-align: center; 
+            font-size: 48px; 
+            font-weight: bold; 
+            margin-bottom: 20px; 
+            color: #5d885e; 
+          }
+          .header-info {
+
+            display: inline-flex;
+            margin-right: 30px;
+            padding: 14px 0;
+        }   
+        .header-info:last-child {
+            margin-right: 0;
+        }
+        
+        .header-info i {
+            font-size: 17px;
+            color: #d45e5e;
+            position: relative;
+            top: 2px;
+            
+        }
+        
+        .header-info p {
+            color: #333333;
+            margin-bottom: 0;
+        }
+        .header-info a {
+            color: #333333;
+            margin-bottom: 0;
+        }
+
+         .content{
+            background-color: #5c93c546;
+            padding: 10px;
+        }
+            .img_product_phone {
+            width: 600px;
+            margin-right: 500px;
+          } 
+          .content h4 {
+            text-align:  end;
+            margin-right: 150px; 
+            font-size: 40px; 
+            font-weight: bold; 
+            color: #5d885e; 
+          }
+        .product-item img{
+            width: 100%;
+            height: 100px;
+        }
+    </style> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
